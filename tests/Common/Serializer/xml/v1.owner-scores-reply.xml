@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:noNamespaceSchemaLocation="https://developer.kontomatik.com/schema/v1/get_owner_scores.xsd" status="200 OK"
+       user="brsolutions-test" ownerExternalId="kontomatik-34cb892d-3db4-407a-bc94-0eeb6ce58721"
+       responseTimestamp="2023-05-24T10:41:25Z">
+    <models>
+        <model id="common-2023-03-07" retrainedAt="2023-03-16T07:11:33Z">
+            <scores>
+                <score>
+                    <value>0.7204348357228043</value>
+                </score>
+                <scorePercentile>
+                    <value>0.8085198489453809</value>
+                </scorePercentile>
+                <scoreTier>
+                    <value>C</value>
+                </scoreTier>
+            </scores>
+        </model>
+    </models>
+</reply>

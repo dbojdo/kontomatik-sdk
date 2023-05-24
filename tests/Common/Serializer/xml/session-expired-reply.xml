@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply status="404 Not Found" user="brsolutions-test" responseTimestamp="2023-05-23T07:47:37Z">
+    <exception name="InvalidSessionId">
+        <message>Session expired.</message>
+    </exception>
+</reply>

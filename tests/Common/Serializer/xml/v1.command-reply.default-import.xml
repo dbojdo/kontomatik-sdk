@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.kontomatik.com/schema/v1/default_import.xsd" status="200 OK" user="brsolutions-test" responseTimestamp="2023-05-23T07:42:50Z">
+   <command id="455026009" state="successful" name="DefaultImportCommand"
+           target="KontoBank"
+           institution="KontoBank">
+      <progress>
+         <value>0</value>
+      </progress>
+      <result>
+         <owners>
+            <owner>
+               <name>Tadeusz Krajowy</name>
+               <kind>CO_OWNER</kind>
+            </owner>
+            <owner>
+               <name>Maria Sochacka</name>
+               <address>Stolarska 15/2 33-543 Jaworzno</address>
+               <kind>OWNER</kind>
+            </owner>
+         </owners>
+         <accounts>
+            <account>
+               <name>Konto 0</name>
+               <friendlyName>Konto</friendlyName>
+               <iban>PL69137013140000049678278112</iban>
+               <currencyBalance>259402.51</currencyBalance>
+               <currencyFundsAvailable>259402.51</currencyFundsAvailable>
+               <currencyName>PLN</currencyName>
+               <activeSinceAtLeast>2022-10-08</activeSinceAtLeast>
+               <directDebit available="true"/>
+               <moneyTransactions>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-22</transactionOn>
+                     <bookedOn>2023-05-23</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>259402.51</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-21</transactionOn>
+                     <bookedOn>2023-05-22</bookedOn>
+                     <currencyAmount>-20.00</currencyAmount>
+                     <currencyBalance>259402.52</currencyBalance>
+                     <title>Zwrot za Sylwestra</title>
+                     <party>Jan Kowalski Dunikowskiego 23B, 01-200 Warszawa</party>
+                     <partyIban>PL83130000002076700146310001</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-19</transactionOn>
+                     <bookedOn>2023-05-20</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>259422.52</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-17</transactionOn>
+                     <bookedOn>2023-05-18</bookedOn>
+                     <currencyAmount>-2.40</currencyAmount>
+                     <currencyBalance>259072.52</currencyBalance>
+                     <title>BILETOMAT BILET ZTM    Warszaw</title>
+                     <party>MENNICA AUTOMAT</party>
+                     <kind>MDS - płatność kartą - kraj</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>public transport</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-16</transactionOn>
+                     <bookedOn>2023-05-17</bookedOn>
+                     <currencyAmount>-20.00</currencyAmount>
+                     <currencyBalance>259074.92</currencyBalance>
+                     <title>Zwrot za Sylwestra</title>
+                     <party>Jan Kowalski Dunikowskiego 23B, 01-200 Warszawa</party>
+                     <partyIban>PL83130000002076700146310001</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-07</transactionOn>
+                     <bookedOn>2023-05-08</bookedOn>
+                     <currencyAmount>-25.00</currencyAmount>
+                     <currencyBalance>259094.92</currencyBalance>
+                     <title>SWIAT PRASY GDYNIA</title>
+                     <kind>TRANSAKCJA KARTĄ PŁATNICZĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>press</label>
+                        <label>leisure</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-06</transactionOn>
+                     <bookedOn>2023-05-07</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>259119.92</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-05</transactionOn>
+                     <bookedOn>2023-05-06</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>259169.91</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-05-04</transactionOn>
+                     <bookedOn>2023-05-05</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>259297.23</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-28</transactionOn>
+                     <bookedOn>2023-04-29</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>258947.23</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-25</transactionOn>
+                     <bookedOn>2023-04-26</bookedOn>
+                     <currencyAmount>-15.00</currencyAmount>
+                     <currencyBalance>258997.22</currencyBalance>
+                     <title>JMP S.A. BIEDRONKA /BIALYSTOK</title>
+                     <kind>ZAPŁATA KARTĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>grocery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-25</transactionOn>
+                     <bookedOn>2023-04-26</bookedOn>
+                     <currencyAmount>2800.00</currencyAmount>
+                     <currencyBalance>259012.22</currencyBalance>
+                     <title>Wynagrodzenie za pracę</title>
+                     <party>LIDL POLSKA SP Z O O</party>
+                     <partyIban>PL48105000021572771618714189</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-24</transactionOn>
+                     <bookedOn>2023-04-25</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>256212.22</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-24</transactionOn>
+                     <bookedOn>2023-04-25</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>255862.22</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-23</transactionOn>
+                     <bookedOn>2023-04-24</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>255512.22</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-14</transactionOn>
+                     <bookedOn>2023-04-15</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>255512.23</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-13</transactionOn>
+                     <bookedOn>2023-04-14</bookedOn>
+                     <currencyAmount>-100.99</currencyAmount>
+                     <currencyBalance>255639.55</currencyBalance>
+                     <title>Transakcja kartą debetową. obciążenie 4814 POL Poznan Doladowania.payu</title>
+                     <party>Doladowania.payu, POL Poznan Doladowania.payu</party>
+                     <partyIban>PL63249010440000420034376084</partyIban>
+                     <kind>ZAPŁATA KARTĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-11</transactionOn>
+                     <bookedOn>2023-04-12</bookedOn>
+                     <currencyAmount>-5.00</currencyAmount>
+                     <currencyBalance>255740.54</currencyBalance>
+                     <title>Opłata za kartę</title>
+                     <kind>OPŁATA</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>fee</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-11</transactionOn>
+                     <bookedOn>2023-04-12</bookedOn>
+                     <currencyAmount>-50.00</currencyAmount>
+                     <currencyBalance>255745.54</currencyBalance>
+                     <title>BLIK WYPŁATA ATM KRAJOWY</title>
+                     <kind>WYPŁATA Z BANKOMATU</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>cash withdrawal</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-05</transactionOn>
+                     <bookedOn>2023-04-06</bookedOn>
+                     <currencyAmount>2600.00</currencyAmount>
+                     <currencyBalance>255795.54</currencyBalance>
+                     <title>Wynagrodz. za pracę</title>
+                     <party>JERONIMO MARTINS POLSKA S A</party>
+                     <partyIban>PL93146000096827341523634651</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-04-01</transactionOn>
+                     <bookedOn>2023-04-02</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>253195.54</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-31</transactionOn>
+                     <bookedOn>2023-04-01</bookedOn>
+                     <currencyAmount>-12.00</currencyAmount>
+                     <currencyBalance>253195.55</currencyBalance>
+                     <title>PUB REST/KRAKOW DATA TRANSAKCJI</title>
+                     <kind>ZAKUP PRZY UŻYCIU KARTY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>nightlife</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-30</transactionOn>
+                     <bookedOn>2023-03-31</bookedOn>
+                     <currencyAmount>2800.00</currencyAmount>
+                     <currencyBalance>253207.55</currencyBalance>
+                     <title>Wynagrodzenie za pracę</title>
+                     <party>LIDL POLSKA SP Z O O</party>
+                     <partyIban>PL48105000021572771618714189</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-29</transactionOn>
+                     <bookedOn>2023-03-30</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>250407.55</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-28</transactionOn>
+                     <bookedOn>2023-03-29</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>250057.55</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-27</transactionOn>
+                     <bookedOn>2023-03-28</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>250057.56</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-26</transactionOn>
+                     <bookedOn>2023-03-27</bookedOn>
+                     <currencyAmount>-25.00</currencyAmount>
+                     <currencyBalance>250184.88</currencyBalance>
+                     <title>SWIAT PRASY GDYNIA</title>
+                     <kind>TRANSAKCJA KARTĄ PŁATNICZĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>press</label>
+                        <label>leisure</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-26</transactionOn>
+                     <bookedOn>2023-03-27</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>250209.88</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-24</transactionOn>
+                     <bookedOn>2023-03-25</bookedOn>
+                     <currencyAmount>-15.00</currencyAmount>
+                     <currencyBalance>250337.20</currencyBalance>
+                     <title>JMP S.A. BIEDRONKA /BIALYSTOK</title>
+                     <kind>ZAPŁATA KARTĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>grocery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-23</transactionOn>
+                     <bookedOn>2023-03-24</bookedOn>
+                     <currencyAmount>2700.00</currencyAmount>
+                     <currencyBalance>250352.20</currencyBalance>
+                     <title>Wynagr. z tyt. um. zlec. 001289</title>
+                     <party>SKLEP SPOŻYWCZY SŁAWOMIR KIELICH SPÓŁKA JAWNA</party>
+                     <partyIban>PL84102000032436318496455455</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-22</transactionOn>
+                     <bookedOn>2023-03-23</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>247652.20</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-18</transactionOn>
+                     <bookedOn>2023-03-19</bookedOn>
+                     <currencyAmount>-38.50</currencyAmount>
+                     <currencyBalance>247779.52</currencyBalance>
+                     <title>WPŁATA DLA SERWISU DOTPAY M3931-3131 PIZZAPORTAL YHDFP PIZZAPORTAL.PL</title>
+                     <party>DOTPAY SPÓŁKA AKCYJNA UL.WIELICKA 72 30-552 KRAKÓW POLSKA</party>
+                     <kind>PRZELEW MTRANSFER WYCHODZACY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>food with delivery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-15</transactionOn>
+                     <bookedOn>2023-03-16</bookedOn>
+                     <currencyAmount>-38.50</currencyAmount>
+                     <currencyBalance>247818.02</currencyBalance>
+                     <title>WPŁATA DLA SERWISU DOTPAY M3931-3131 PIZZAPORTAL YHDFP PIZZAPORTAL.PL</title>
+                     <party>DOTPAY SPÓŁKA AKCYJNA UL.WIELICKA 72 30-552 KRAKÓW POLSKA</party>
+                     <kind>PRZELEW MTRANSFER WYCHODZACY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>food with delivery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-15</transactionOn>
+                     <bookedOn>2023-03-16</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>247856.52</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-13</transactionOn>
+                     <bookedOn>2023-03-14</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>247983.84</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-08</transactionOn>
+                     <bookedOn>2023-03-09</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>248111.16</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-04</transactionOn>
+                     <bookedOn>2023-03-05</bookedOn>
+                     <currencyAmount>2700.00</currencyAmount>
+                     <currencyBalance>247761.16</currencyBalance>
+                     <title>Wynagr. z tyt. um. zlec. 001289</title>
+                     <party>SKLEP SPOŻYWCZY SŁAWOMIR KIELICH SPÓŁKA JAWNA</party>
+                     <partyIban>PL84102000032436318496455455</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-04</transactionOn>
+                     <bookedOn>2023-03-05</bookedOn>
+                     <currencyAmount>-50.00</currencyAmount>
+                     <currencyBalance>245061.16</currencyBalance>
+                     <title>BLIK WYPŁATA ATM KRAJOWY</title>
+                     <kind>WYPŁATA Z BANKOMATU</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>cash withdrawal</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-03-01</transactionOn>
+                     <bookedOn>2023-03-02</bookedOn>
+                     <currencyAmount>-20.00</currencyAmount>
+                     <currencyBalance>245111.16</currencyBalance>
+                     <title>Zwrot za Sylwestra</title>
+                     <party>Jan Kowalski Dunikowskiego 23B, 01-200 Warszawa</party>
+                     <partyIban>PL83130000002076700146310001</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-28</transactionOn>
+                     <bookedOn>2023-03-01</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>245131.16</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-27</transactionOn>
+                     <bookedOn>2023-02-28</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>245181.15</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-27</transactionOn>
+                     <bookedOn>2023-02-28</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>245231.14</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-18</transactionOn>
+                     <bookedOn>2023-02-19</bookedOn>
+                     <currencyAmount>2700.00</currencyAmount>
+                     <currencyBalance>244881.14</currencyBalance>
+                     <title>Wynagr. z tyt. um. zlec. 001289</title>
+                     <party>SKLEP SPOŻYWCZY SŁAWOMIR KIELICH SPÓŁKA JAWNA</party>
+                     <partyIban>PL84102000032436318496455455</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-12</transactionOn>
+                     <bookedOn>2023-02-13</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>242181.14</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-12</transactionOn>
+                     <bookedOn>2023-02-13</bookedOn>
+                     <currencyAmount>-12.00</currencyAmount>
+                     <currencyBalance>242181.15</currencyBalance>
+                     <title>PUB REST/KRAKOW DATA TRANSAKCJI</title>
+                     <kind>ZAKUP PRZY UŻYCIU KARTY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>nightlife</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-12</transactionOn>
+                     <bookedOn>2023-02-13</bookedOn>
+                     <currencyAmount>-50.00</currencyAmount>
+                     <currencyBalance>242193.15</currencyBalance>
+                     <title>BLIK WYPŁATA ATM KRAJOWY</title>
+                     <kind>WYPŁATA Z BANKOMATU</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>cash withdrawal</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-05</transactionOn>
+                     <bookedOn>2023-02-06</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>242243.15</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-02-01</transactionOn>
+                     <bookedOn>2023-02-02</bookedOn>
+                     <currencyAmount>-696.00</currencyAmount>
+                     <currencyBalance>241893.15</currencyBalance>
+                     <title>Składka ZUS, deklaracja nr.: 203721</title>
+                     <party>Zakład Ubezpieczeń Społecznych</party>
+                     <partyIban>PL83101010230000261395100000</partyIban>
+                     <kind>PRZELEW ZUS</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>zus</label>
+                        <label>tax</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-28</transactionOn>
+                     <bookedOn>2023-01-29</bookedOn>
+                     <currencyAmount>2800.00</currencyAmount>
+                     <currencyBalance>242589.15</currencyBalance>
+                     <title>Wynagrodzenie za pracę</title>
+                     <party>LIDL POLSKA SP Z O O</party>
+                     <partyIban>PL48105000021572771618714189</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-23</transactionOn>
+                     <bookedOn>2023-01-24</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>239789.15</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-22</transactionOn>
+                     <bookedOn>2023-01-23</bookedOn>
+                     <currencyAmount>350.00</currencyAmount>
+                     <currencyBalance>239839.14</currencyBalance>
+                     <title>WPLATA</title>
+                     <kind>Wpłata gotówkowa w kasie</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>cash deposit</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-21</transactionOn>
+                     <bookedOn>2023-01-22</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>239489.14</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-20</transactionOn>
+                     <bookedOn>2023-01-21</bookedOn>
+                     <currencyAmount>2700.00</currencyAmount>
+                     <currencyBalance>239616.46</currencyBalance>
+                     <title>Wynagr. z tyt. um. zlec. 001289</title>
+                     <party>SKLEP SPOŻYWCZY SŁAWOMIR KIELICH SPÓŁKA JAWNA</party>
+                     <partyIban>PL84102000032436318496455455</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-20</transactionOn>
+                     <bookedOn>2023-01-21</bookedOn>
+                     <currencyAmount>-5.00</currencyAmount>
+                     <currencyBalance>236916.46</currencyBalance>
+                     <title>Opłata za kartę</title>
+                     <kind>OPŁATA</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>fee</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-16</transactionOn>
+                     <bookedOn>2023-01-17</bookedOn>
+                     <currencyAmount>-20.00</currencyAmount>
+                     <currencyBalance>236921.46</currencyBalance>
+                     <title>Zwrot za Sylwestra</title>
+                     <party>Jan Kowalski Dunikowskiego 23B, 01-200 Warszawa</party>
+                     <partyIban>PL83130000002076700146310001</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-14</transactionOn>
+                     <bookedOn>2023-01-15</bookedOn>
+                     <currencyAmount>-25.00</currencyAmount>
+                     <currencyBalance>236941.46</currencyBalance>
+                     <title>SWIAT PRASY GDYNIA</title>
+                     <kind>TRANSAKCJA KARTĄ PŁATNICZĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>press</label>
+                        <label>leisure</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-13</transactionOn>
+                     <bookedOn>2023-01-14</bookedOn>
+                     <currencyAmount>-38.50</currencyAmount>
+                     <currencyBalance>236966.46</currencyBalance>
+                     <title>WPŁATA DLA SERWISU DOTPAY M3931-3131 PIZZAPORTAL YHDFP PIZZAPORTAL.PL</title>
+                     <party>DOTPAY SPÓŁKA AKCYJNA UL.WIELICKA 72 30-552 KRAKÓW POLSKA</party>
+                     <kind>PRZELEW MTRANSFER WYCHODZACY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>food with delivery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-13</transactionOn>
+                     <bookedOn>2023-01-14</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>237004.96</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2023-01-01</transactionOn>
+                     <bookedOn>2023-01-02</bookedOn>
+                     <currencyAmount>2600.00</currencyAmount>
+                     <currencyBalance>237132.28</currencyBalance>
+                     <title>Wynagrodz. za pracę</title>
+                     <party>JERONIMO MARTINS POLSKA S A</party>
+                     <partyIban>PL93146000096827341523634651</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-31</transactionOn>
+                     <bookedOn>2023-01-01</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>234532.28</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-29</transactionOn>
+                     <bookedOn>2022-12-30</bookedOn>
+                     <currencyAmount>2800.00</currencyAmount>
+                     <currencyBalance>234582.27</currencyBalance>
+                     <title>Wynagrodzenie za pracę</title>
+                     <party>LIDL POLSKA SP Z O O</party>
+                     <partyIban>PL48105000021572771618714189</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-24</transactionOn>
+                     <bookedOn>2022-12-25</bookedOn>
+                     <currencyAmount>-38.50</currencyAmount>
+                     <currencyBalance>231782.27</currencyBalance>
+                     <title>WPŁATA DLA SERWISU DOTPAY M3931-3131 PIZZAPORTAL YHDFP PIZZAPORTAL.PL</title>
+                     <party>DOTPAY SPÓŁKA AKCYJNA UL.WIELICKA 72 30-552 KRAKÓW POLSKA</party>
+                     <kind>PRZELEW MTRANSFER WYCHODZACY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                        <label>food with delivery</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-23</transactionOn>
+                     <bookedOn>2022-12-24</bookedOn>
+                     <currencyAmount>-127.32</currencyAmount>
+                     <currencyBalance>231820.77</currencyBalance>
+                     <title>Usługi medyczne za okres 01/03/2015 do 31/03/2015</title>
+                     <party>Medi-cover Sp. z o.o. Al. Jerozolimskie 95 00-807 Warszawa, Polska NIP: 525-14-77-607</party>
+                     <partyIban>PL21105000995120006501512900</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>healthcare</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-18</transactionOn>
+                     <bookedOn>2022-12-19</bookedOn>
+                     <currencyAmount>2800.00</currencyAmount>
+                     <currencyBalance>231948.09</currencyBalance>
+                     <title>Wynagrodzenie za pracę</title>
+                     <party>LIDL POLSKA SP Z O O</party>
+                     <partyIban>PL48105000021572771618714189</partyIban>
+                     <kind>PRZELEW PRZYCHODZĄCY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>compensation</label>
+                        <label>regular wage</label>
+                        <label>salary</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-14</transactionOn>
+                     <bookedOn>2022-12-15</bookedOn>
+                     <currencyAmount>-12.00</currencyAmount>
+                     <currencyBalance>229148.09</currencyBalance>
+                     <title>PUB REST/KRAKOW DATA TRANSAKCJI</title>
+                     <kind>ZAKUP PRZY UŻYCIU KARTY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>nightlife</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-10</transactionOn>
+                     <bookedOn>2022-12-11</bookedOn>
+                     <currencyAmount>-25.00</currencyAmount>
+                     <currencyBalance>229160.09</currencyBalance>
+                     <title>SWIAT PRASY GDYNIA</title>
+                     <kind>TRANSAKCJA KARTĄ PŁATNICZĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>press</label>
+                        <label>leisure</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-12-07</transactionOn>
+                     <bookedOn>2022-12-08</bookedOn>
+                     <currencyAmount>-12.00</currencyAmount>
+                     <currencyBalance>229185.09</currencyBalance>
+                     <title>PUB REST/KRAKOW DATA TRANSAKCJI</title>
+                     <kind>ZAKUP PRZY UŻYCIU KARTY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>nightlife</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-11-30</transactionOn>
+                     <bookedOn>2022-12-01</bookedOn>
+                     <currencyAmount>-0.01</currencyAmount>
+                     <currencyBalance>229197.09</currencyBalance>
+                     <title>5QATW54J1O Oplata weryfikacyjna</title>
+                     <partyIban>PL16156000132367053266830002</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>verification</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-11-29</transactionOn>
+                     <bookedOn>2022-11-30</bookedOn>
+                     <currencyAmount>-696.00</currencyAmount>
+                     <currencyBalance>229197.10</currencyBalance>
+                     <title>Składka ZUS, deklaracja nr.: 203721</title>
+                     <party>Zakład Ubezpieczeń Społecznych</party>
+                     <partyIban>PL83101010230000261395100000</partyIban>
+                     <kind>PRZELEW ZUS</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>zus</label>
+                        <label>tax</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-11-29</transactionOn>
+                     <bookedOn>2022-11-30</bookedOn>
+                     <currencyAmount>-100.99</currencyAmount>
+                     <currencyBalance>229893.10</currencyBalance>
+                     <title>Transakcja kartą debetową. obciążenie 4814 POL Poznan Doladowania.payu</title>
+                     <party>Doladowania.payu, POL Poznan Doladowania.payu</party>
+                     <partyIban>PL63249010440000420034376084</partyIban>
+                     <kind>ZAPŁATA KARTĄ</kind>
+                     <status>DONE</status>
+                     <labels>
+                        <label>payment processor</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-11-28</transactionOn>
+                     <bookedOn>2022-11-29</bookedOn>
+                     <currencyAmount>-49.99</currencyAmount>
+                     <currencyBalance>229994.09</currencyBalance>
+                     <title>Płatność kartą</title>
+                     <party>LPP CROPP  GORNI PL</party>
+                     <status>DONE</status>
+                     <labels>
+                        <label>monthly</label>
+                        <label>apparel</label>
+                     </labels>
+                  </moneyTransaction>
+                  <moneyTransaction>
+                     <transactionOn>2022-11-25</transactionOn>
+                     <bookedOn>2022-11-26</bookedOn>
+                     <currencyAmount>-20.00</currencyAmount>
+                     <currencyBalance>230044.08</currencyBalance>
+                     <title>Zwrot za Sylwestra</title>
+                     <party>Jan Kowalski Dunikowskiego 23B, 01-200 Warszawa</party>
+                     <partyIban>PL83130000002076700146310001</partyIban>
+                     <kind>PRZELEW ZEWNĘTRZNY</kind>
+                     <status>DONE</status>
+                  </moneyTransaction>
+               </moneyTransactions>
+               <owners>
+                  <owner>
+                     <name>Tadeusz Krajowy</name>
+                     <kind>CO_OWNER</kind>
+                  </owner>
+                  <owner>
+                     <name>Maria Sochacka</name>
+                     <address>Stolarska 15/2 33-543 Jaworzno</address>
+                     <kind>OWNER</kind>
+                  </owner>
+               </owners>
+            </account>
+         </accounts>
+      </result>
+   </command>
+</reply>

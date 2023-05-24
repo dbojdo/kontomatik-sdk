@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply status="200 OK">
+    <command id="000000" state="error" name="SomeName">
+        <progress><value>20</value></progress>
+        <exception name="SessionExpired">
+            <message>Exception message</message>
+            <friendlyMessage>Exception message in local language</friendlyMessage>
+        </exception>
+    </command>
+</reply>

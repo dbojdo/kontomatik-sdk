@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply status="400 Bad Request" user="brsolutions-test"
+       ownerExternalId="kontomatik-a70e8a12-0df7-4181-b85a-4da3245e7c2d" responseTimestamp="2023-05-23T07:49:15Z">
+    <exception name="CommandNotAvailable">
+        <message>Command SignOutCommand is not available for target KontoBank.</message>
+    </exception>
+</reply>

@@ -1,0 +1,30 @@
+{
+    "name": "goosfraba/kontomatik-sdk",
+    "license": "MIT",
+    "authors": [{
+        "name": "Daniel Bojdo",
+        "email": "daniel@bojdo.eu"
+    }],
+    "autoload": {
+        "psr-4": {
+            "Goosfraba\\Kontomatik\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Goosfraba\\Kontomatik\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=8.0",
+        "kriswallsmith/buzz": "^1.2",
+        "jms/serializer": "^3.23",
+        "nyholm/psr7": "^1.8",
+        "psr/log": "^3.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.1",
+        "phpspec/prophecy": "^1.3",
+        "monolog/monolog": "^3.3"
+    }
+}

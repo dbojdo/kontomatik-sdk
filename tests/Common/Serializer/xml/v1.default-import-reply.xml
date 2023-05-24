@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.kontomatik.com/schema/v1/command_setup.xsd" status="202 Accepted" user="brsolutions-test" ownerExternalId="kontomatik-27452a6f-3efc-4e17-b07e-6f0dc6225b27" responseTimestamp="2023-05-23T07:39:06Z">
+   <command id="455026009" state="setup" name="DefaultImportCommand">
+      <progress>
+         <value>0</value>
+      </progress>
+   </command>
+</reply>

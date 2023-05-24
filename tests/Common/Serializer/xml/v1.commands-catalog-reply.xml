@@ -1,0 +1,2355 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://developer.kontomatik.com/schema/v1/get_command_catalog.xsd" status="200 OK" user="brsolutions-test" responseTimestamp="2023-05-23T07:31:32Z">
+   <targets>
+      <target country="cz" name="KontoBankApi_cz" institution="KontoBank_cz" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Bankia_es" institution="Bankia_es" officialName="Bankia" officialUrl="https://www.bankia.es/es/particulares" loginName="CaixaBankNow Identificaci&#xf3;n">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>CaixaBankNow Identificaci&#xf3;n</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="SantanderCorporateApi" institution="SantanderCorporate" officialName="Santander iBiznes24" officialUrl="https://www.santander.pl/korporacje" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="AgricoleApi_pt" institution="Agricole_pt" officialName="Caixa Central de Cr&#xe9;dito Agr&#xed;cola M&#xfa;tuo, CRL" officialUrl="https://www.creditoagricola.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Caixa_es" institution="Caixa_es" officialName="La Caixa" officialUrl="https://www.caixabank.es/particular/home/particulares_es.html" loginName="CaixaBankNow Identificaci&#xf3;n">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>CaixaBankNow Identificaci&#xf3;n</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="KontoBank_es" institution="KontoBank_es" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Nombre de usuario" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Nombre de usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="NovoAcoresApi_pt" institution="NovoAcores_pt" officialName="Novo Banco dos A&#xe7;ores, SA" officialUrl="https://www.novobancodosacores.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="UnicreditApi_ro" institution="Unicredit_ro" officialName="UniCredit Bank" officialUrl="https://ro.unicreditbanking.eu/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="RuralApi_es" institution="Rural_es" officialName="Caja Rural (ruralv&#xed;a)" officialUrl="https://www.ruralvia.com" loginName="Elige tu banco" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="CHOICE">
+               <name>Elige tu banco</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+               <choice>
+                  <option>BCE</option>
+                  <option>C.R. ORIHUELA</option>
+                  <option>C.R. GIJON</option>
+                  <option>C.R. NAVARRA</option>
+                  <option>C.R. EXTREMADURA</option>
+                  <option>C.R. SALAMANCA</option>
+                  <option>C.R. SORIA</option>
+                  <option>C.R. FUENTEALAMO</option>
+                  <option>C.R. UTRERA</option>
+                  <option>C.R. GRANADA</option>
+                  <option>C.R. ASTURIAS</option>
+                  <option>CAJAVIVA</option>
+                  <option>C.R. JAEN</option>
+                  <option>CAIXA RURAL GALEGA</option>
+                  <option>CAJASIETE</option>
+                  <option>C.R. TERUEL</option>
+                  <option>C.R. ZAMORA</option>
+                  <option>C.R. BAENA</option>
+                  <option>C.R. L&apos;ALCUDIA</option>
+                  <option>C.R. NUEVA CARTEYA</option>
+                  <option>C.R. CA&#xd1;ETE DE LAS TORRES</option>
+                  <option>C.R. SAN ISIDRO VALL D&apos;UXO</option>
+                  <option>C.R. SAN JOSE ALCORA</option>
+                  <option>C.R. ADAMUZ</option>
+                  <option>C.R. ALGEMESI</option>
+                  <option>C.R. CASAS IBA&#xd1;EZ</option>
+                  <option>C.R. SAN JOSE DE ALMASSORA</option>
+                  <option>C.R. ONDA</option>
+                  <option>RURALNOSTRA</option>
+                  <option>C.R. VILLAMALEA</option>
+                  <option>C.R. ALBAL</option>
+                  <option>CAIXA POPULAR</option>
+                  <option>CAIXA RURAL BENICARLO</option>
+                  <option>C.R. SAN ISIDRO LES COVES VINROMA</option>
+                  <option>C.R. EL SALVADOR VINAROZ</option>
+                  <option>C.R. DEL SUR</option>
+                  <option>GLOBALCAJA</option>
+                  <option>BANTIERRA</option>
+               </choice>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="NestBankCorporateApi" institution="NestBankCorporate" officialName="Nest Bank dla firm" officialUrl="https://login.nestbank.pl/login" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Sabadell_es" institution="Sabadell_es" officialName="Sabadell" officialUrl="https://www.bancsabadell.com" loginName="Usuario (DNI)">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>Usuario (DNI)</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="QUALIFIED_CERTIFICATE">
+               <name>DNIe</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="CARD_NUMBER">
+               <name>T.secundaria</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="CLIENT_CERTIFICATE">
+               <name>Otros</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="SantanderApi" institution="Bzwbk" officialName="Santander" officialUrl="https://santander.pl" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaApi_pt" institution="Caixa_pt" officialName="Caixa Geral de Dep&#xf3;sitos, SA" officialUrl="https://www.cgd.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="BbvaApi_es" institution="Bbva_es" officialName="BBVA" officialUrl="https://www.bbva.es/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="BnpGoOnlineApi" institution="Bnp" officialName="BNP Paribas (GOonline)" officialUrl="https://www.bnpparibas.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="BicApi_pt" institution="Bic_pt" officialName="Banco BIC Portugu&#xea;s, SA" officialUrl="https://www.eurobic.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="BpgApi_pt" institution="Bpg_pt" officialName="Banco Portugu&#xea;s de Gest&#xe3;o, SA" officialUrl="https://www.bpg.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lv" name="CitadeleApi_lv" institution="Citadele_lv" officialName="Citadele" officialUrl="https://www.citadele.lv" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="MBankCorporateApi" institution="MBankCorporate" officialName="mBank Korporacyjny" officialUrl="https://www.mbank.pl/msp-korporacje/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CofidisApi_pt" institution="Cofidis_pt" officialName="Cofidis" officialUrl="https://www.cofidis.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lt" name="KontoBankApi_lt" institution="KontoBank_lt" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="MillenniumApi_pt" institution="Millennium_pt" officialName="Banco Comercial Portugu&#xea;s, SA - Millennium" officialUrl="http://millenniumbcp.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="Plus" institution="Plus" officialName="PLUS BANK S.A." officialUrl="https://plusbank24.pl/" loginName="Numer klienta lub login">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Numer klienta lub login</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="AtlanticoApi_pt" institution="Atlantico_pt" officialName="Banco Atl&#xe2;ntico Europa, SA" officialUrl="https://www.atlantico.eu/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ph" name="Security_ph" institution="Security_ph" officialName="Security Bank" officialUrl="https://securitybankonline.securitybank.com/" loginName="User ID" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>User ID</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="BigApi_pt" institution="Big_pt" officialName="Banco de Investimento Global, SA" officialUrl="https://www.big.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lv" name="SebApi_lv" institution="Seb_lv" officialName="SEB banka" officialUrl="https://ibanka.seb.lv/cgi-bin/ipank/ipank.p" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lv" name="SwedbankApi_lv" institution="Swedbank_lv" officialName="Swedbank" officialUrl="https://www.swedbank.lv" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="AgricoleApi" institution="Agricole" officialName="Credit Agricole" officialUrl="https://ca24.credit-agricole.pl" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ee" name="KontoBank_ee" institution="KontoBank_ee" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Mock username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Mock username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="FioApi_cz" institution="Fio_cz" officialName="Fio banka" officialUrl="https://www.fio.cz/ib2" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Pichincha_es" institution="Pichincha_es" officialName="Banco Pichincha" officialUrl="https://www.bancopichincha.es" loginName="Usuario" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="BosApi" institution="Bos" officialName="BO&#x15a; Bank" officialUrl="https://www.bosbank.pl/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Ibercaja_es" institution="Ibercaja_es" officialName="Ibercaja" officialUrl="https://banca.ibercaja.es/" loginName="C&#xf3;digo de identificaci&#xf3;n">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>C&#xf3;digo de identificaci&#xf3;n</name>
+               <description>En general el NIF del usuario sin la letra final (c&#xf3;digo num&#xe9;rico de hasta 8 posiciones que aparecen en la portada del sobre PIN).</description>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>DNI (sin letra) o Tarjeta de Residencia</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Rural_es" institution="Rural_es" officialName="Caja Rural (ruralv&#xed;a)" officialUrl="https://www.ruralvia.com" loginName="DNI/NIE" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>DNI/NIE</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Kutxa_es" institution="Kutxa_es" officialName="Kutxabank" officialUrl="https://www.kutxabank.es" loginName="NIF / NIE">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>NIF / NIE</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="KasaStefczykaApi" institution="SkokStefczyka" officialName="Kasa Stefczyka" officialUrl="https://www.kasastefczyka.pl/" loginName="PESEL" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="PERSONAL_NUMBER">
+               <name>PESEL</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="ImaginApi_es" institution="Imagin_es" officialName="Imagin" officialUrl="https://www.imaginbank.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="CsobApi_cz" institution="Csob_cz" officialName="&#x10c;SOB" officialUrl="https://ib.csob.cz" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="PkoApi" institution="Pko" officialName="PKO BP" officialUrl="https://www.ipko.pl" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ee" name="KontoBankApi_ee" institution="KontoBank_ee" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaFranceApi_pt" institution="CaixaFrance_pt" officialName="Caixa Geral de Dep&#xf3;sitos France" officialUrl="https://www.cgd.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ph" name="Bdo_ph" institution="Bdo_ph" officialName="Banco de Oro" officialUrl="https://bdo.com.ph/" loginName="User ID" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="SignOutCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>User ID</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="ESkok" institution="Skok" officialName="eSKOK" officialUrl="https://eskok.pl/" loginName="Login">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="SignOutCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Login</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="KontoBank_pt" institution="KontoBank_pt" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Mock username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Mock username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Openbank_es" institution="Openbank_es" officialName="Openbank" officialUrl="https://api.openbank.es" loginName="NIF">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="TAX_NUMBER">
+               <name>NIF</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="FOREIGN_CITIZEN_NUMBER">
+               <name>NIE</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="PASSPORT">
+               <name>Pasaporte espa&#xf1;ol</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>Otro documento extranjero</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ee" name="SwedbankApi_ee" institution="Swedbank_ee" officialName="Swedbank" officialUrl="https://www.swedbank.ee" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="SabadellApi_es" institution="Sabadell_es" officialName="Sabadell" officialUrl="https://www.bancsabadell.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaChamuscaApi_pt" institution="CaixaChamusca_pt" officialName="Caixa de Cr&#xe9;dito Agr&#xed;cola M&#xfa;tuo da Chamusca, CRL" officialUrl="https://ccamchamusca.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="IngApi_ro" institution="Ing_ro" officialName="ING" officialUrl="https://ing.ro/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lv" name="KontoBank_lv" institution="KontoBank_lv" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Mock username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Mock username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Unicaja_es" institution="Unicaja_es" officialName="Unicaja" officialUrl="https://www.unicaja.es" loginName="Usuario">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lv" name="KontoBankApi_lv" institution="KontoBank_lv" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="MBankApi_cz" institution="MBank_cz" officialName="mBank" officialUrl="https://www.mbank.cz" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="ActivoApi_pt" institution="Activo_pt" officialName="Banco Activobank, SA" officialUrl="https://www.activobank.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="KontoBankApi_pt" institution="KontoBank_pt" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="AliorCorporateApi" institution="AliorCorporate" officialName="Alior Bank BusinessPro" officialUrl="https://www.aliorbank.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="Pko" institution="Pko" officialName="PKO BP" officialUrl="https://www.ipko.pl" loginName="Numer klienta lub login">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Numer klienta lub login</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="MBankApi" institution="MBank" officialName="mBank" officialUrl="https://www.mbank.pl" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ee" name="CitadeleApi_ee" institution="Citadele_ee" officialName="Citadele" officialUrl="https://www.citadele.ee" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lt" name="SebApi_lt" institution="Seb_lt" officialName="SEB banka" officialUrl="https://e.seb.lt/cgi-bin/ipank/ipank.p" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="BpiApi_pt" institution="Bpi_pt" officialName="Banco BPI, SA" officialUrl="https://www.bancobpi.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaBombarralApi_pt" institution="CaixaBombarral_pt" officialName="Caixa de Cr&#xe9;dito Agr&#xed;cola M&#xfa;tuo de Bombarral, CRL" officialUrl="https://ccambonline.ccambombarral.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="KontoBankApi_es" institution="KontoBank_es" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Cajamar_es" institution="Cajamar_es" officialName="Cajamar" officialUrl="https://www.cajamar.es" loginName="Usuario">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="SignOutCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="QUALIFIED_CERTIFICATE">
+               <name>DNI-e</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaEconomicaApi_pt" institution="CaixaEconomica_pt" officialName="Caixa Economica da Miseric&#xf3;rdia de Angra do Hero&#xed;smo" officialUrl="https://cemah.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="KontoBank_cz" institution="KontoBank_cz" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="U&#x17e;ivatelsk&#xe9; jm&#xe9;no" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>U&#x17e;ivatelsk&#xe9; jm&#xe9;no</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CttApi_pt" institution="Ctt_pt" officialName="Banco CTT, SA" officialUrl="https://www.bancoctt.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="SporitelnaApi_cz" institution="Sporitelna_cz" officialName="&#x10c;esk&#xe1; spo&#x159;itelna" officialUrl="https://www.csas.cz/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaCreditoLeiriaApi_pt" institution="CaixaCreditoLeiria_pt" officialName="Caixa de Cr&#xe9;dito Agr&#xed;cola M&#xfa;tuo de Leiria, CRL" officialUrl="https://www.caixacreditoleiria.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="PocztowyApi" institution="Pocztowy" officialName="Pocztowy" officialUrl="https://www.pocztowy24.pl/cbp-webapp/login" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="BcrApi_ro" institution="Bcr_ro" officialName="Banca Comercial&#x103;" officialUrl="https://www.bcr.ro/" loginName="Utilizator" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name>Utilizator</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="Optima" institution="Optima" officialName="BNP Paribas (GOoptima)" officialUrl="https://gooptima.bnpparibas.pl/" loginName="wpisz login lub identyfikator">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>wpisz login lub identyfikator</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="MonetaApi_cz" institution="Gemoney_cz" officialName="Moneta (GE Money Bank)" officialUrl="https://ibs.internetbanka.cz/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="MillenniumApi" institution="Millennium" officialName="Millennium" officialUrl="https://openapi.bankmillennium.pl" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="EurocajaRural_es" institution="Rural_es" officialName="Eurocaja Rural" officialUrl="https://eurocajarural.es/" loginName="DNI/NIE" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>DNI/NIE</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="SabadellEmpresas_es" institution="SabadellEmpresas_es" officialName="Sabadell Empresas" officialUrl="https://www.bancsabadell.com" loginName="Usuario (DNI)">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>Usuario (DNI)</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="QUALIFIED_CERTIFICATE">
+               <name>DNIe</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="CARD_NUMBER">
+               <name>T.secundaria</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="CLIENT_CERTIFICATE">
+               <name>Otros</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="Inteligo" institution="Inteligo" officialName="Inteligo" officialUrl="https://inteligo.pl/secure/" loginName="Identyfikator lub login">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Identyfikator lub login</name>
+               <description>Unikalny, o&#x15b;miocyfrowy numer, kt&#xf3;ry identyfikuje Ci&#x119; jako Klienta Inteligo, lub w&#x142;asny, zdefiniowany przez Ciebie, login.</description>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Bankinter_es" institution="Bankinter_es" officialName="Bankinter" officialUrl="https://www.bankinter.com/" loginName="Usuario">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lt" name="KontoBank_lt" institution="KontoBank_lt" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Mock username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Mock username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="KbApi_cz" institution="Kb_cz" officialName="Komer&#x10d;n&#xed; banka" officialUrl="https://www.mojebanka.cz" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="UnicreditApi_cz" institution="Unicredit_cz" officialName="UniCredit Bank" officialUrl="https://cz.unicreditbanking.eu/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ph" name="Metrobank_ph" institution="Metrobank_ph" officialName="Metrobank" officialUrl="https://www.metrobank.com.ph/" loginName="User ID" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="SignOutCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>User ID</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="NestBankApi" institution="Smart" officialName="Nest Bank" officialUrl="https://login.nestbank.pl/login" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="MontepioApi_pt" institution="Montepio_pt" officialName="Caixa Economica Montepio Geral" officialUrl="https://www.bancomontepio.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="IbercajaApi_es" institution="Ibercaja_es" officialName="Ibercaja" officialUrl="https://www1.ibercajadirecto.com/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="KontoBankApi" institution="KontoBank" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="NovoApi_pt" institution="Novo_pt" officialName="Novo Banco, SA" officialUrl="https://www.novobanco.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="it" name="UnicreditApi_it" institution="Unicredit_it" officialName="UniCredit Banca" officialUrl="https://www.unicredit.it/it/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="BankinterApi_pt" institution="Bankinter_pt" officialName="Bankinter, SA - sucursal em Portugal" officialUrl="https://www.bankinter.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="BancaTransilvaniaApi_ro" institution="BancaTransilvania_ro" officialName="Banca Transilvania" officialUrl="https://www.bancatransilvania.ro/" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="IngApi" institution="Ing" officialName="ING Bank &#x15a;l&#x105;ski" officialUrl="https://www.ing.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="Corporate"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="GetinApi" institution="Getin" officialName="VeloBank" officialUrl="https://www.velobank.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Ing_es" institution="Ing_es" officialName="ING Direct" officialUrl="https://ing.ingdirect.es/" loginName="DNI o Tarjeta de Residencia: N&#xfa;mero de documento">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>DNI o Tarjeta de Residencia: N&#xfa;mero de documento</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="PASSPORT">
+               <name>Pasaporte: N&#xfa;mero de documento</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="KontoBank" institution="KontoBank" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Login" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Login</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="CaixaTorresVedrasApi_pt" institution="CaixaTorresVedras_pt" officialName="Caixa de Cr&#xe9;dito Agr&#xed;cola M&#xfa;tuo de Torres Vedras, CRL" officialUrl="https://ccamtvonline.ccamtv.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="PekaoApi" institution="Pekao" officialName="Pekao SA" officialUrl="https://www.pekao24.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="Corporate"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="Brd_ro" institution="Brd_ro" officialName="BRD" officialUrl="https://www.brd.ro/" loginName="Codul de utilizator (User Name)" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Codul de utilizator (User Name)</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ee" name="SebApi_ee" institution="Seb_ee" officialName="Seb" officialUrl="https://e.seb.ee/ip/ipank" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lt" name="CitadeleApi_lt" institution="Citadele_lt" officialName="Citadele" officialUrl="https://www.citadele.lt" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ph" name="KontoBank_ph" institution="KontoBank_ph" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" loginName="Mock username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Mock username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Santander_es" institution="Santander_es" officialName="Santander" officialUrl="https://www.bancosantander.es/es/particulares" loginName="NIF">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="TAX_NUMBER">
+               <name>NIF</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="CORPORATE_TAX_NUMBER">
+               <name>CIF</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="FOREIGN_CITIZEN_NUMBER">
+               <name>NIE</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="PASSPORT">
+               <name>Pasaporte</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="PkoCorporateApi" institution="PkoCorporate" officialName="PKO BP biznes" officialUrl="https://www.ipkobiznes.pl" loginName="Identyfikator kontekstu (iPKO biznes &#x279e; Administracja &#x279e; Parametry Kontekstu)" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Corporate"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="COMPANY_LOGIN">
+               <name>Identyfikator kontekstu (iPKO biznes &#x279e; Administracja &#x279e; Parametry Kontekstu)</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="UnicreApi_pt" institution="Unicre_pt" officialName="Unicre - Institui&#xe7;&#xe3;o Financeira de Cr&#xe9;dito S.A" officialUrl="https://www.unicre.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pt" name="SantanderApi_pt" institution="Santander_pt" officialName="Banco Santander Totta, SA" officialUrl="https://www.santander.pt/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ph" name="Bpi_ph" institution="Bpi_ph" officialName="Bank Of The Philippines" officialUrl="https://online.bpi.com.ph" loginName="Username" beta="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Username</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="ro" name="KontoBankApi_ro" institution="KontoBank_ro" officialName="KontoBank" officialUrl="https://bank.kontomatik.com" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="AirbankApi_cz" institution="Airbank_cz" officialName="Air Bank" officialUrl="https://ib.airbank.cz/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Liberbank_es" institution="Liberbank_es" officialName="Liberbank" officialUrl="https://bancaadistancia.liberbank.es" loginName="Usuario">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario</name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="pl" name="AliorApi" institution="Alior" officialName="Alior Bank" officialUrl="https://www.aliorbank.pl/" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+            <supportedAccountType name="SoleTrader"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportCreditCardsCommand"/>
+            <command name="ImportCreditCardTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="es" name="Abanca_es" institution="Abanca_es" officialName="Abanca" officialUrl="https://bancaelectronica.abanca.com/" loginName="Usuario o tarjeta">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="STATIC_LOGIN">
+               <name>Usuario o tarjeta</name>
+               <description>S&#xf3;lo d&#xed;gitos. M&#xe1;ximo 10.</description>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="PERSONAL_NUMBER">
+               <name>Alias</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+            <credentialMetadata kind="DOCUMENT">
+               <name>DNI electr&#xf3;nico</name>
+               <supported>false</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="lt" name="SwedbankApi_lt" institution="Swedbank_lt" officialName="Swedbank" officialUrl="https://www.swedbank.lt" beta="true" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="EnterCredentialCommand"/>
+            <command name="DefaultImportCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+      <target country="cz" name="RaiffeisenApi_cz" institution="Raiffeisen_cz" officialName="Raiffeisen Bank" officialUrl="https://www.rb.cz" psd2="true">
+         <supportedAccountTypes>
+            <supportedAccountType name="Individual"/>
+         </supportedAccountTypes>
+         <commands>
+            <command name="DefaultImportCommand"/>
+            <command name="ImportAccountsCommand"/>
+            <command name="ImportOwnersDetailsCommand"/>
+            <command name="ImportAccountTransactionsCommand"/>
+            <command name="EnterCredentialCommand"/>
+         </commands>
+         <credentialsMetadata>
+            <credentialMetadata kind="API_SETUP">
+               <name></name>
+               <supported>true</supported>
+               <asterisked>false</asterisked>
+            </credentialMetadata>
+         </credentialsMetadata>
+      </target>
+   </targets>
+</reply>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<reply status="401 Unauthorized" responseTimestamp="2023-05-23T08:02:53Z">
+   <comment>
+    We don't know who you are.
+    We see your request as originating from IP 10**********43 with API key
+    "f7**************1f".
+    If you DO NOT have a business relationship with us please request your sandbox API access at https://kontomatik.com/
+    If you DO have a business relationship with us please check your IP address and API key HTTP header. If you need
+    to whitelist IP addresses or generate a new API key, you can do so in Kontomatik Client Area at https://insight.kontomatik.com/
+    If you don't have access to the Client Area please contact support@kontomatik.com
+    API authentication is described in our docs, see https://developer.kontomatik.com/ for details.
+  </comment>
+</reply>
