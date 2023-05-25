@@ -31,10 +31,10 @@ interface ImportingApi
      * Gets the aggregated data for given owner
      *
      * @param string $ownerExternalId
-     * @return DataReply
+     * @return OwnerDataReply
      * @throws ApiException
      */
-    public function getData(string $ownerExternalId): DataReply;
+    public function getData(string $ownerExternalId): OwnerDataReply;
 
     /**
      * Removes the imported data for given owner

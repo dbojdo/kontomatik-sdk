@@ -59,7 +59,7 @@ final class Target
     }
 
     /**
-     * @return array
+     * @return Owner[]
      */
     public function getOwners(): array
     {

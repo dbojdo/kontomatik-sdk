@@ -65,7 +65,7 @@ class ImportingApiTest extends AbstractApiTestCase
     public function itGetsAggregatedData(string $ownerExternalId): void
     {
         $dataReply = $this->api->getData($ownerExternalId);
-        $this->assertInstanceOf(DataReply::class, $dataReply);
+        $this->assertInstanceOf(OwnerDataReply::class, $dataReply);
     }
 
     public static function ownerExternalIds(): array

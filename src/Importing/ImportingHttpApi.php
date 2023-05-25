@@ -41,9 +41,9 @@ final class ImportingHttpApi extends AbstractApi implements ImportingApi
     /**
      * @inheritDoc
      */
-    public function getData(string $ownerExternalId): DataReply
+    public function getData(string $ownerExternalId): OwnerDataReply
     {
-        return new DataReply(
+        return new OwnerDataReply(
             $this->get(
                 sprintf("/v1/data.xml?ownerExternalId=%s", $ownerExternalId),
                 ReplyTypes::OWNER_DATA

@@ -5,7 +5,7 @@ namespace Goosfraba\Kontomatik\Importing;
 use Goosfraba\Kontomatik\GenericReply;
 use Goosfraba\Kontomatik\Reply;
 
-final class DataReply extends Reply
+final class OwnerDataReply extends Reply
 {
     public function __construct(
         GenericReply $reply
@@ -21,7 +21,7 @@ final class DataReply extends Reply
      *
      * @return OwnerData|null
      */
-    public function getOwnerResponse(): ?OwnerData
+    public function getOwnerData(): ?OwnerData
     {
         return $this->getReplyData();
     }
